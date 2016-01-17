@@ -16,16 +16,16 @@
 		141AB6E61BEF4E6E00F8731A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 141AB6961BEF4E6E00F8731A /* LICENSE */; };
 		141AB6E71BEF4E6E00F8731A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 141AB6E41BEF4E6E00F8731A /* libcrypto.a */; };
 		141AB6E81BEF4E6E00F8731A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 141AB6E51BEF4E6E00F8731A /* libssl.a */; };
-		141AB6EE1BEF4E9B00F8731A /* XYSHASign.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AB6ED1BEF4E9B00F8731A /* XYSHASign.m */; };
 		141AB6F61BEF538100F8731A /* pkcs8_private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 141AB6F01BEF538100F8731A /* pkcs8_private_key.pem */; };
 		141AB6F71BEF538100F8731A /* private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 141AB6F11BEF538100F8731A /* private_key.pem */; };
 		141AB6F81BEF538100F8731A /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 141AB6F21BEF538100F8731A /* public_key.der */; };
 		141AB6F91BEF538100F8731A /* rsa_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 141AB6F31BEF538100F8731A /* rsa_public_key.pem */; };
 		141AB6FA1BEF538100F8731A /* rsaCert.crt in Resources */ = {isa = PBXBuildFile; fileRef = 141AB6F41BEF538100F8731A /* rsaCert.crt */; };
 		141AB6FB1BEF538100F8731A /* rsaCertReq.csr in Resources */ = {isa = PBXBuildFile; fileRef = 141AB6F51BEF538100F8731A /* rsaCertReq.csr */; };
-		141AB6FF1BEF55FE00F8731A /* XYRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AB6FE1BEF55FE00F8731A /* XYRSACryptor.m */; };
 		141AB70A1BEF5A6C00F8731A /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AB7081BEF5A6C00F8731A /* GTMBase64.m */; };
 		141AB70C1BEF5F2F00F8731A /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 141AB70B1BEF5F2F00F8731A /* private_key.p12 */; };
+		1439C0571C4B76040045D103 /* XYRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1439C0541C4B76040045D103 /* XYRSACryptor.m */; };
+		1439C0581C4B76040045D103 /* XYSHASign.m in Sources */ = {isa = PBXBuildFile; fileRef = 1439C0561C4B76040045D103 /* XYSHASign.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,20 +117,20 @@
 		141AB6E21BEF4E6E00F8731A /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
 		141AB6E41BEF4E6E00F8731A /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
 		141AB6E51BEF4E6E00F8731A /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
-		141AB6EC1BEF4E9B00F8731A /* XYSHASign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYSHASign.h; sourceTree = "<group>"; };
-		141AB6ED1BEF4E9B00F8731A /* XYSHASign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYSHASign.m; sourceTree = "<group>"; };
 		141AB6F01BEF538100F8731A /* pkcs8_private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pkcs8_private_key.pem; sourceTree = "<group>"; };
 		141AB6F11BEF538100F8731A /* private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private_key.pem; sourceTree = "<group>"; };
 		141AB6F21BEF538100F8731A /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
 		141AB6F31BEF538100F8731A /* rsa_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.pem; sourceTree = "<group>"; };
 		141AB6F41BEF538100F8731A /* rsaCert.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsaCert.crt; sourceTree = "<group>"; };
 		141AB6F51BEF538100F8731A /* rsaCertReq.csr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsaCertReq.csr; sourceTree = "<group>"; };
-		141AB6FD1BEF55FE00F8731A /* XYRSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYRSACryptor.h; sourceTree = "<group>"; };
-		141AB6FE1BEF55FE00F8731A /* XYRSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYRSACryptor.m; sourceTree = "<group>"; };
 		141AB7071BEF5A6C00F8731A /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		141AB7081BEF5A6C00F8731A /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		141AB7091BEF5A6C00F8731A /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		141AB70B1BEF5F2F00F8731A /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
+		1439C0531C4B76040045D103 /* XYRSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYRSACryptor.h; sourceTree = "<group>"; };
+		1439C0541C4B76040045D103 /* XYRSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYRSACryptor.m; sourceTree = "<group>"; };
+		1439C0551C4B76040045D103 /* XYSHASign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYSHASign.h; sourceTree = "<group>"; };
+		1439C0561C4B76040045D103 /* XYSHASign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYSHASign.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,16 +165,11 @@
 		141AB6781BEF4DAD00F8731A /* XYRSACryptor */ = {
 			isa = PBXGroup;
 			children = (
-				141AB67C1BEF4DAD00F8731A /* AppDelegate.h */,
-				141AB67D1BEF4DAD00F8731A /* AppDelegate.m */,
-				141AB67F1BEF4DAD00F8731A /* ViewController.h */,
-				141AB6801BEF4DAD00F8731A /* ViewController.m */,
-				141AB6821BEF4DAD00F8731A /* Main.storyboard */,
-				141AB6851BEF4DAD00F8731A /* Assets.xcassets */,
-				141AB6871BEF4DAD00F8731A /* LaunchScreen.storyboard */,
-				141AB68A1BEF4DAD00F8731A /* Info.plist */,
+				1439C05A1C4B761D0045D103 /* Controller */,
+				1439C0591C4B760E0045D103 /* Class */,
 				141AB6901BEF4E0400F8731A /* RSACryptor */,
 				141AB6EF1BEF538100F8731A /* Key */,
+				1439C05B1C4B76320045D103 /* Other */,
 				141AB6791BEF4DAD00F8731A /* Supporting Files */,
 			);
 			path = XYRSACryptor;
@@ -191,12 +186,9 @@
 		141AB6901BEF4E0400F8731A /* RSACryptor */ = {
 			isa = PBXGroup;
 			children = (
+				1439C0521C4B76040045D103 /* XYCryptor */,
 				141AB7061BEF5A6C00F8731A /* GTMBase64 */,
 				141AB6941BEF4E6E00F8731A /* OpenSSL */,
-				141AB6EC1BEF4E9B00F8731A /* XYSHASign.h */,
-				141AB6ED1BEF4E9B00F8731A /* XYSHASign.m */,
-				141AB6FD1BEF55FE00F8731A /* XYRSACryptor.h */,
-				141AB6FE1BEF55FE00F8731A /* XYRSACryptor.m */,
 			);
 			path = RSACryptor;
 			sourceTree = "<group>";
@@ -334,6 +326,46 @@
 			path = GTMBase64;
 			sourceTree = "<group>";
 		};
+		1439C0521C4B76040045D103 /* XYCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				1439C0531C4B76040045D103 /* XYRSACryptor.h */,
+				1439C0541C4B76040045D103 /* XYRSACryptor.m */,
+				1439C0551C4B76040045D103 /* XYSHASign.h */,
+				1439C0561C4B76040045D103 /* XYSHASign.m */,
+			);
+			path = XYCryptor;
+			sourceTree = "<group>";
+		};
+		1439C0591C4B760E0045D103 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				141AB67C1BEF4DAD00F8731A /* AppDelegate.h */,
+				141AB67D1BEF4DAD00F8731A /* AppDelegate.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		1439C05A1C4B761D0045D103 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				141AB67F1BEF4DAD00F8731A /* ViewController.h */,
+				141AB6801BEF4DAD00F8731A /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1439C05B1C4B76320045D103 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				141AB6821BEF4DAD00F8731A /* Main.storyboard */,
+				141AB6851BEF4DAD00F8731A /* Assets.xcassets */,
+				141AB6871BEF4DAD00F8731A /* LaunchScreen.storyboard */,
+				141AB68A1BEF4DAD00F8731A /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -413,9 +445,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				141AB6FF1BEF55FE00F8731A /* XYRSACryptor.m in Sources */,
-				141AB6EE1BEF4E9B00F8731A /* XYSHASign.m in Sources */,
 				141AB6811BEF4DAD00F8731A /* ViewController.m in Sources */,
+				1439C0571C4B76040045D103 /* XYRSACryptor.m in Sources */,
+				1439C0581C4B76040045D103 /* XYSHASign.m in Sources */,
 				141AB67E1BEF4DAD00F8731A /* AppDelegate.m in Sources */,
 				141AB67B1BEF4DAD00F8731A /* main.m in Sources */,
 				141AB70A1BEF5A6C00F8731A /* GTMBase64.m in Sources */,

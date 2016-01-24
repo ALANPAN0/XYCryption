@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "141AB6751BEF4DAD00F8731A"
-               BuildableName = "XYRSACryptor.app"
-               BlueprintName = "XYRSACryptor"
-               ReferencedContainer = "container:XYRSACryptor.xcodeproj">
+               BlueprintIdentifier = "1459E6E51C54CCEC00D0D40F"
+               BuildableName = "XYCryption.framework"
+               BlueprintName = "XYCryption"
+               ReferencedContainer = "container:XYCryption.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,24 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1459E6EF1C54CCEC00D0D40F"
+               BuildableName = "XYCryptionTests.xctest"
+               BlueprintName = "XYCryptionTests"
+               ReferencedContainer = "container:XYCryption.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "141AB6751BEF4DAD00F8731A"
-            BuildableName = "XYRSACryptor.app"
-            BlueprintName = "XYRSACryptor"
-            ReferencedContainer = "container:XYRSACryptor.xcodeproj">
+            BlueprintIdentifier = "1459E6E51C54CCEC00D0D40F"
+            BuildableName = "XYCryption.framework"
+            BlueprintName = "XYCryption"
+            ReferencedContainer = "container:XYCryption.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -51,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "141AB6751BEF4DAD00F8731A"
-            BuildableName = "XYRSACryptor.app"
-            BlueprintName = "XYRSACryptor"
-            ReferencedContainer = "container:XYRSACryptor.xcodeproj">
+            BlueprintIdentifier = "1459E6E51C54CCEC00D0D40F"
+            BuildableName = "XYCryption.framework"
+            BlueprintName = "XYCryption"
+            ReferencedContainer = "container:XYCryption.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "141AB6751BEF4DAD00F8731A"
-            BuildableName = "XYRSACryptor.app"
-            BlueprintName = "XYRSACryptor"
-            ReferencedContainer = "container:XYRSACryptor.xcodeproj">
+            BlueprintIdentifier = "1459E6E51C54CCEC00D0D40F"
+            BuildableName = "XYCryption.framework"
+            BlueprintName = "XYCryption"
+            ReferencedContainer = "container:XYCryption.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
